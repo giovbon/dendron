@@ -1,12 +1,19 @@
-div.page.relative {
-    display: flex;
-    flex-direction: column;
+a.tag {
+  background-color: #033743;
+  padding: 1px 5px 1px 5px;
+  border-radius: 5px;
+  color: #40E0D0;
 }
 
-div.page.relative > .relative {
-    order: -2    
+a.external-link::before {
+  content: "🌐 ";
+  color: #7DF9FF;
 }
 
-div.page.relative > .page-hierarchy {
-    order: -1;
+h1,h2,h3 {
+  color: #FFA447;
+}
+
+b {
+  color: #D16AFF;
 }
