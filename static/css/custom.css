@@ -17,3 +17,11 @@ h1,h2,h3 {
 b {
   color: #D16AFF;
 }
+
+.graph-view-nav {
+  display: none;
+}
+
+.all-pages-nav {
+  display: none;
+}
